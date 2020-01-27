@@ -8,6 +8,9 @@
 <script>
 	import AppFormNumber from '../../components/AppFormNumber'
 	export default {
+		head: {
+			title: 'Step 1'
+		},
 		components: {
 			AppFormNumber
 		},

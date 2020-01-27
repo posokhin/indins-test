@@ -8,6 +8,9 @@
 <script>
 	import AppFormPerson from '../../components/AppFormPerson'
 	export default {
+		head: {
+			title: 'Step 2'
+		},
 		components: {
 			AppFormPerson
 		},

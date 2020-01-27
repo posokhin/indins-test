@@ -8,6 +8,9 @@
 <script>
     import { mapGetters } from 'vuex'
 	export default {
+		head: {
+			title: 'Result'
+		},
 		data() {
 			return {
 				title: "Result",

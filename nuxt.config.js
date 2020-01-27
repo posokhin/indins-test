@@ -1,6 +1,9 @@
 
 export default {
-  mode: 'universal',
+  mode: 'spa',
+  router: {
+    base: '/indis/'
+  },
   /*
   ** Headers of the page
   */
@@ -50,6 +53,7 @@ export default {
     ** You can extend webpack config here
     */
     extend (config, ctx) {
-    }
+    },
+    publicPath: 'https://posokhin.github.io/indis/'
   }
 }
