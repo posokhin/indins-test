@@ -2,7 +2,7 @@
 export default {
   mode: 'spa',
   router: {
-    base: '/indis/'
+    base: '/indins-test/'
   },
   /*
   ** Headers of the page
